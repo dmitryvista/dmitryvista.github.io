@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /xbunturus/easter.html
 Allow: /
 
 Sitemap: https://dmitryvista.github.io/sitemap.xml
