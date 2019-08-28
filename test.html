@@ -1,0 +1,22 @@
+<html>
+<head>
+<script src="http://free.ipwhois.io/json/">
+jQuery.ajax({
+    url: 'http://free.ipwhois.io/json/',
+    type: 'POST',
+    dataType: 'json',
+    success: function(location) {
+        if (location.country_code == 'RU') {
+            document.write("<b>Hello!</b>");
+        }
+        else {
+        document.write("Goodbye!");
+        console.log("...");
+        }
+    }
+});
+</script>
+</head>
+<body>
+</body>
+</html>
